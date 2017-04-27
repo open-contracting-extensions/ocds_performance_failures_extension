@@ -60,7 +60,7 @@
           "description": "",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/PerformanceFailures"
+            "$ref": "#/definitions/PerformanceFailure"
           },
           "uniqueItems": true
         }
