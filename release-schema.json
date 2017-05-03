@@ -5,7 +5,12 @@
       "title": "Performance failures",
       "description": "Details of the performance failures for a given period and category. Details of the associated penalities and abatements provided for in the contract, imposed and paid can also be provided.",
       "properties": {
-        "period": {
+        "id": {
+          "title": "Identifier",
+          "description": "A local identifier for this specific category and period of performance failure. This field is used to keep track of revisions of a charge across multiple OCDS releases.",
+          "type": "string"
+        },        
+		"period": {
           "title": "Performance failure period",
           "description": "The reporting period for the these performance failures.",
           "type": "object",
