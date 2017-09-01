@@ -1,6 +1,6 @@
 {
   "name": "Performance Failures Extension",
-  "description": "This extension adds fields to the implementation section of OCDS to allow disclosure of an array of contracting performance failures. It is based on the performance failures reporting table defined in the World Bank Framework for Disclosure in PPPs.",
+  "description": "Adds fields to the implementation section to allow disclosure of an array of contracting performance failures. Based on the performance failures reporting table defined in the World Bank Framework for Disclosure in PPPs.",
   "compatibility": ">=1.0.0",
   "dependencies": []
 }
