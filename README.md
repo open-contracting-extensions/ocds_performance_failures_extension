@@ -44,3 +44,7 @@ The following JSON snippet models the performance failures reported for a single
 ## To do
 
 * Add a ```relatedTransactions``` reference to the performance failure object?
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
