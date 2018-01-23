@@ -6,16 +6,16 @@ The [Framework for disclosure in Public Private Partnerships](http://pubdocs.wor
 
 ## Extension Fields
 
-This extension introduces the ```performanceFailures``` property to the ```implementation``` section of an OCDS release.
+This extension introduces the `performanceFailures` property to the `implementation` section of an OCDS release.
 
-The new property is an array of ```PerformanceFailure``` objects. The ```PerformanceFailure``` object has the following properties:
+The new property is an array of `PerformanceFailure` objects. The `PerformanceFailure` object has the following properties:
 
-* ```period``` - an OCDS ```period``` object defining the reporting period to applicable to the performance failures being reported
-* ```category``` - a free text field used to describe the category of performance failures being reported
-* ```events``` - a number field used to state the number of performance failure events in the period and category being reported
-* ```penaltyContracted``` - a free text field used to describe the penalty or abatement defined in the contract for the number, category and period of performance failures being reported
-* ```penaltyImposed``` - a free text field used to describe the penalty or abatement actually imposed for the number, category and period of performance failures being reported
-* ```penaltyPaid``` - a boolean field indicating whether the penalty imposed has been paid. A value of ```true``` indicates that the penalty has been paid
+* `period` - an OCDS `period` object defining the reporting period to applicable to the performance failures being reported
+* `category` - a free text field used to describe the category of performance failures being reported
+* `events` - a number field used to state the number of performance failure events in the period and category being reported
+* `penaltyContracted` - a free text field used to describe the penalty or abatement defined in the contract for the number, category and period of performance failures being reported
+* `penaltyImposed` - a free text field used to describe the penalty or abatement actually imposed for the number, category and period of performance failures being reported
+* `penaltyPaid` - a boolean field indicating whether the penalty imposed has been paid. A value of `true` indicates that the penalty has been paid
 
 ## Example
 
@@ -43,7 +43,7 @@ The following JSON snippet models the performance failures reported for a single
 
 ## To do
 
-* Add a ```relatedTransactions``` reference to the performance failure object?
+* Add a `relatedTransactions` reference to the performance failure object?
 
 ## Issues
 
