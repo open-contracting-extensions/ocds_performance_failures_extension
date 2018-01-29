@@ -13,7 +13,10 @@
         "period": {
           "title": "Performance failure period",
           "description": "The reporting period for the these performance failures.",
-          "type": "object",
+          "type": [
+            "object",
+            "null"
+          ],
           "$ref": "#/definitions/Period"
         },
         "category": {
