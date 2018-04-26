@@ -65,7 +65,7 @@
       "properties": {
         "performanceFailures": {
           "title": "Performance failures",
-          "description": "",
+          "description": "An array of performance failure objects, detailing performance failures for different periods and categories.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/PerformanceFailure"
