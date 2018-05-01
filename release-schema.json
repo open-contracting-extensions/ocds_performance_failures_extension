@@ -2,7 +2,7 @@
   "definitions": {
     "PerformanceFailure": {
       "type": "object",
-      "title": "Performance failures",
+      "title": "Performance failure disclosure",
       "description": "Details of the performance failures for a given period and category. Details of the associated penalties and abatements provided for in the contract, imposed and paid can also be provided.",
       "properties": {
         "id": {
@@ -12,7 +12,7 @@
         },
         "period": {
           "title": "Performance failure period",
-          "description": "The reporting period for the these performance failures.",
+          "description": "The reporting period for these performance failures.",
           "type": [
             "object",
             "null"
@@ -64,8 +64,8 @@
     "Implementation": {
       "properties": {
         "performanceFailures": {
-          "title": "Performance failures",
-          "description": "An array of performance failure objects, detailing performance failures for different periods and categories.",
+          "title": "Performance failure disclosures",
+          "description": "An array of performance failure disclosures, detailing performance failures for different periods and categories.",
           "type": "array",
           "items": {
             "$ref": "#/definitions/PerformanceFailure"
