@@ -50,7 +50,12 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 ### 2019-03-20
 
 * Add `"minLength": 1` on required string fields.
+* Make `PerformanceFailure.period` non-nullable (undo earlier change), given that it refers to the `Period` object.
 
 ### 2018-05-08
 
 * Make `PerformanceFailure.id` required to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists)
+
+### 2018-01-29
+
+* Make `PerformanceFailure.period` nullable.
