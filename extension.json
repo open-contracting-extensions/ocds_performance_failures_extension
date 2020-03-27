@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Performance Failures Extension"
+    "en": "Performance Failures"
   },
   "description": {
     "en": "Adds fields to the implementation section to allow disclosure of an array of contracting performance failures. Based on the performance failures reporting table defined in the World Bank Framework for Disclosure in PPPs."

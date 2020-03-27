@@ -1,4 +1,4 @@
-# Performance Failures Extension
+# Performance Failures
 
 ## Background
 
@@ -53,6 +53,10 @@ The following JSON snippet models the performance failures reported for a single
 Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
 
 ## Changelog
+
+### 2020-03-27
+
+* Remove 'Extension' from extension name
 
 ### 2019-03-20
 
