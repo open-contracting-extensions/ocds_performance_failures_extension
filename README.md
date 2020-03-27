@@ -54,10 +54,6 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ## Changelog
 
-### 2020-03-27
-
-* Remove 'Extension' from extension name
-
 ### 2019-03-20
 
 * Add `"minLength": 1` on required string fields.
