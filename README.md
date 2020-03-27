@@ -1,4 +1,4 @@
-# Performance Failures Extension
+# Performance Failures
 
 ## Background
 
