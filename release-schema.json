@@ -25,7 +25,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "events": {
           "title": "Number of events",
@@ -41,7 +42,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "penaltyImposed": {
           "title": "Penalty imposed",
@@ -49,7 +51,8 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "minLength": 1
         },
         "penaltyPaid": {
           "title": "Penalty paid",
@@ -59,7 +62,8 @@
             "null"
           ]
         }
-      }
+      },
+      "minProperties": 1
     },
     "Implementation": {
       "properties": {
@@ -70,7 +74,8 @@
           "items": {
             "$ref": "#/definitions/PerformanceFailure"
           },
-          "uniqueItems": true
+          "uniqueItems": true,
+          "minItems": 1
         }
       }
     }
