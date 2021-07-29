@@ -1,21 +1,6 @@
-# Performance Failures
-
-## Background
+# Performance failures
 
 The [Framework for disclosure in Public Private Partnerships](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) requires disclosure of instances of performance failures during the the life of a contract, along with the penalties or abatements defined, imposed and paid in relation to each category of performance failures.
-
-## Extension Fields
-
-This extension introduces the `performanceFailures` property to the `implementation` section of an OCDS release.
-
-The new property is an array of `PerformanceFailure` objects. The `PerformanceFailure` object has the following properties:
-
-* `period` - an OCDS `period` object defining the reporting period to applicable to the performance failures being reported
-* `category` - a free text field used to describe the category of performance failures being reported
-* `events` - a number field used to state the number of performance failure events in the period and category being reported
-* `penaltyContracted` - a free text field used to describe the penalty or abatement defined in the contract for the number, category and period of performance failures being reported
-* `penaltyImposed` - a free text field used to describe the penalty or abatement actually imposed for the number, category and period of performance failures being reported
-* `penaltyPaid` - a boolean field indicating whether the penalty imposed has been paid. A value of `true` indicates that the penalty has been paid
 
 ## Example
 
