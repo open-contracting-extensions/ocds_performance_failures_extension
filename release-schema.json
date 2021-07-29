@@ -16,12 +16,12 @@
         },
         "period": {
           "title": "Performance failure period",
-          "description": "The reporting period for these performance failures.",
+          "description": "The reporting period for the performance failures.",
           "$ref": "#/definitions/Period"
         },
         "category": {
           "title": "Performance failure category",
-          "description": "The category into which these performance failures fall.",
+          "description": "The category of the performance failures.",
           "type": [
             "string",
             "null"
@@ -30,7 +30,7 @@
         },
         "events": {
           "title": "Number of events",
-          "description": "The number of performance failures for the given period and category.",
+          "description": "The number of performance failures for this period and category.",
           "type": [
             "number",
             "null"
@@ -38,7 +38,7 @@
         },
         "penaltyContracted": {
           "title": "Contracted penalty",
-          "description": "A free text description of the penalty or abatement provided for in the contract for this period, category and number of performance failures.",
+          "description": "A description of the penalty or abatement provided for in the contract for this period, category and number of performance failures.",
           "type": [
             "string",
             "null"
@@ -47,7 +47,7 @@
         },
         "penaltyImposed": {
           "title": "Penalty imposed",
-          "description": "A free text description of the penalty or abatement imposed for this period, category and number of performance failures.",
+          "description": "A description of the penalty or abatement imposed for this period, category and number of performance failures.",
           "type": [
             "string",
             "null"
@@ -56,7 +56,7 @@
         },
         "penaltyPaid": {
           "title": "Penalty paid",
-          "description": "A yes/no field indicating whether the penalty imposed for this period, category and number of performance failures has been paid.",
+          "description": "Whether the penalty imposed for this period, category and number of performance failures has been paid.",
           "type": [
             "boolean",
             "null"
