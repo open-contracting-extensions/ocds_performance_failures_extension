@@ -1,9 +1,9 @@
 {
   "definitions": {
     "PerformanceFailure": {
-      "type": "object",
       "title": "Performance failure disclosure",
       "description": "Details of the performance failures for a given period and category. Details of the associated penalties and abatements provided for in the contract, imposed and paid can also be provided.",
+      "type": "object",
       "required": [
         "id"
       ],
