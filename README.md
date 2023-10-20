@@ -1,6 +1,6 @@
 # Performance failures
 
-The [Framework for disclosure in Public Private Partnerships](http://pubdocs.worldbank.org/en/773541448296707678/Disclosure-in-PPPs-Framework.pdf) requires disclosure of instances of performance failures during the the life of a contract, along with the penalties or abatements defined, imposed and paid in relation to each category of performance failures.
+The [Framework for disclosure in Public Private Partnerships](https://thedocs.worldbank.org/en/doc/773541448296707678-0100022015/original/DisclosureinPPPsFramework.pdf) requires disclosure of instances of performance failures during the the life of a contract, along with the penalties or abatements defined, imposed and paid in relation to each category of performance failures.
 
 ## Example
 
@@ -50,7 +50,7 @@ Report issues for this extension in the [ocds-extensions repository](https://git
 
 ### 2018-05-08
 
-* Make `PerformanceFailure.id` required to support revision tracking and [list merging](http://standard.open-contracting.org/latest/en/schema/merging/#lists)
+* Make `PerformanceFailure.id` required to support revision tracking and [list merging](https://standard.open-contracting.org/latest/en/schema/merging/#array-values)
 
 ### 2018-01-29
 
