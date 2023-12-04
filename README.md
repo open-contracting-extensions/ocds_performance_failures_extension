@@ -4,7 +4,7 @@ The [Framework for disclosure in Public Private Partnerships](https://thedocs.wo
 
 ## Example
 
-The following JSON snippet models the performance failures reported for a single period and category.
+The performance failures reported for one category during one period:
 
 ```json
 {
